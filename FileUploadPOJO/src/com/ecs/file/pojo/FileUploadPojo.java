@@ -42,9 +42,18 @@ public class FileUploadPojo implements Serializable{
 	    private Date modifiedDate;
 	    private String baseFolder;
 	    
+	    private String street;
 	    
 	    
 	    
+	    
+	    
+		public String getStreet() {
+			return street;
+		}
+		public void setStreet(String street) {
+			this.street = street;
+		}
 		public Long getFileUploadId() {
 			return fileUploadId;
 		}
